@@ -2,7 +2,7 @@
 //when user clicks on image, reveal trap sign
 
 $(document).ready(function() {
-	$('.warning').hide().show();
+	$('.warning').hide();
 
 	// capture click on image
 	$('.image').on('click', function() {
